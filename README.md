@@ -13,3 +13,5 @@
 This is an approach to convert (simple) SVG files into an ASCII representation.
 
 </p>
+
+Run via `cargo run test/assets/quad.svg`
