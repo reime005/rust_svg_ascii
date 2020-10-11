@@ -10,7 +10,9 @@ fn main() {
         process::exit(1);
     });
 
-    parser::svg_to_ascii(&config.file_path);
+    let res = parser::svg_to_ascii(&config.file_path);
+
+    println!("{}", res);
 }
 
 struct Config {
